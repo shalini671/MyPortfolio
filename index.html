@@ -1,81 +1,94 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shalini S | Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shalini S | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <header>
+    <a class="logo" href="#home">SS</a>
+    <span class="brand">Shalini S</span>
 
-    <header>
-        <h2>Shalini S</h2>
-        <nav>
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#skills">Skills</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
-        </nav>
-    </header>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
 
+  <main>
     <section id="home" class="hero">
+      <div class="intro">
         <p class="tag">COMPUTER SCIENCE STUDENT</p>
-        <h1>Hello, I'm <span>Shalini S</span></h1>
-        <h3>Aspiring Web Developer</h3>
-        <p>I enjoy learning new technologies and building
-           creative digital projects.</p>
-        <a class="btn" href="#projects">View My Projects</a>
+        <h1>Hi, I'm Shalini.<br>
+          I build thoughtful<br>
+          digital experiences<span>.</span>
+        </h1>
+        <p class="description">
+          I am a B.Sc. Computer Science student
+          passionate about web development and technology.
+        </p>
+        <a class="btn" href="#projects">View My Work →</a>
+      </div>
+      <div class="profile">
+  <img src="shalini.jpeg"
+       alt="Shalini's Profile Photo"
+       class="profile-photo">
+</div>
     </section>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>I am a B.Sc. Computer Science student at
-           KG Institute of Technology. I am interested in
-           web development, programming and problem solving.</p>
+    <section id="about" class="section">
+      <h2>About Me</h2>
+      <p>
+        I am a Computer Science student interested in
+        creating useful and user-friendly websites.
+        I enjoy learning new technologies and building projects.
+      </p>
     </section>
 
-    <section id="skills">
-        <h2>My Skills</h2>
-        <div class="cards">
-            <div class="card">HTML</div>
-            <div class="card">CSS</div>
-            <div class="card">JavaScript</div>
-            <div class="card">Python</div>
-            <div class="card">Java</div>
-        </div>
+    <section id="projects" class="section">
+      <h2>My Projects</h2>
+      <div class="projects">
+        <article class="project-card peach">
+          <div class="project-icon">✦</div>
+          <h3>Online Quiz Examination System</h3>
+          <p>Online quizzes with automated result evaluation.</p>
+        </article>
+        <article class="project-card blue">
+          <div class="project-icon">✓</div>
+          <h3>Mini Attendance Tracker</h3>
+          <p>A simple project to record and track attendance.</p>
+        </article>
+        <article class="project-card green">
+          <div class="project-icon">{"</>"}</div>
+          <h3>My Portfolio</h3>
+          <p>A personal website showcasing my skills and work.</p>
+        </article>
+      </div>
     </section>
 
-    <section id="projects">
-        <h2>My Projects</h2>
-        <div class="cards">
-            <div class="card">
-                <h3>Online Quiz Examination System</h3>
-                <p>An online quiz system with automated
-                   result evaluation.</p>
-            </div>
-            <div class="card">
-                <h3>Mini Attendance Tracker</h3>
-                <p>A simple project to track student attendance.</p>
-            </div>
-        </div>
+    <section id="skills" class="section">
+      <h2>My Skills</h2>
+      <div class="skills">
+        <span>HTML</span><span>CSS</span>
+        <span>JavaScript</span><span>Python</span><span>Java</span>
+      </div>
     </section>
 
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <p>Email:25bcs053@kgcas.com</p>
-        <p>GitHub: <a href="https://github.com/Shalini671"
-           target="_blank">Visit My GitHub</a></p>
-        <button class="btn" onclick="showMessage()">
-            Say Hello
-        </button>
-        <p id="message"></p>
+    <section id="contact" class="section">
+      <h2>Let's Connect</h2>
+      <p>Thank you for visiting my portfolio!</p>
+      <a class="btn" href="https://github.com/Shalini671"
+         target="_blank" rel="noopener noreferrer">
+        Visit My GitHub →
+      </a>
     </section>
+  </main>
 
-    <footer>
-        <p>© 2026 Shalini S | My Portfolio</p>
-    </footer>
-
-    <script src="script.js"></script>
+  <footer>© 2026 Shalini S. All rights reserved.</footer>
+  <script src="script.js"></script>
 </body>
 </html>
